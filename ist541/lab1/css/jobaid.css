@@ -3,12 +3,12 @@
 body {
 	background-color:#A6A57A;   /* background color */
 	color: #444;          /* text color for the entire page */
-	font-size: 14px;
+	font-size: 16px;
 	font-family: Helvetica, Arial, sans-serif;
 
 }
 
-h1{ 
+h1 { 
 	padding:9px;
 	text-align:center;     /* centers h1 content */
 	background: #27213C;
@@ -18,7 +18,7 @@ h1{
 	text-shadow: 2px 2px #A47963;	/* Hard shadow color for the h1*/
 }
 
-h2, h3{ 
+h2, h3 { 
 	text-align:center;     /* centers h2 and h3 content */
 	background: #27213C;
 	color: white;       /*Text color for h2 and h3*/
@@ -32,9 +32,9 @@ div {
 }
 
 img { 
-border: 3px solid #27213C;
-border-radius: 10px;
-box-shadow: 0 0px 0px 0 gray, 0 2px 8px 0 gray;
+	border: 3px solid #27213C;
+	border-radius: 10px;
+	box-shadow: 0 0px 0px 0 gray, 0 2px 8px 0 gray;
 
 }
 
@@ -45,17 +45,18 @@ box-shadow: 0 0px 0px 0 gray, 0 2px 8px 0 gray;
 }
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
-.stepTitle{
-	padding:4px;
+.stepTitle {
+	padding:6px;
 	text-align:left;
 	color: white;
 	font-size:16px;
 	font-weight: bold;
-	background-color:#27213C
+	background-color:#27213C;
+	border-radius:5px;
 
  }
 
-.stepContent{ 
+.stepContent { 
 	background-color: white;
 	padding:7px;
 	display: flex;
@@ -71,4 +72,15 @@ box-shadow: 0 0px 0px 0 gray, 0 2px 8px 0 gray;
 	width:40%;	
 	padding:5px;
 	text-align: center;
+}
+
+.warning {
+	background-color: #FBB8C4;
+	padding:10px;
+	border-radius:20px;
+}
+
+.warningIcon {
+	color:red; 
+	font-size:3em;
 }
