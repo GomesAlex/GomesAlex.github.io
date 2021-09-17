@@ -1,0 +1,66 @@
+/* CSS Document */
+
+
+div {
+	padding:5px;
+	border-radius:5px;
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 900px;
+	margin:0 auto;    /* centers wrapper */
+}
+
+body {
+	text-align: center;
+	background-color:#A6A57A;   /* background color */
+	color: #444;          /* text color for the entire page */
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+h1 { 
+	padding:9px;
+	text-align:center;     /* centers h1 content */
+	background: #27213C;
+	color: white;       /* Text color for the h1*/
+	border-radius:5px;
+	font-weight: bold;
+	text-shadow: 2px 2px #A47963;	/* Hard shadow color for the h1*/
+
+}
+	
+	a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 115%;
+	background-color: #5A352A;
+	color: white; /*link font color*/
+	border-radius:5px;
+}
+
+a:hover {
+	font-size:120%;
+	font-weight: bold;
+	background-color: #A47963; /* When the user hovers over the button*/
+	color: white; /* When the user hovers over the button*/
+	border-radius:5px;
+}
+
+.body { 
+	background-color: #FFFEF2;
+	padding:9px;
+	justify-content: center;
+}
+
+footer {
+    position: fixed;
+  	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+ 	color: white;
+ 	text-align: center;
+ 	color: #27213C;
+}
