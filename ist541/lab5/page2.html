@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/lab5.css" rel="stylesheet" type="text/css">
+<title>Lab 5: Fountain Pens with Alex</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+	$(function(){
+	
+		$("#option1").click( function(){
+        $("#feedback").html("<h2 style='color:red'> The nib is metal part which delivers ink to the paper. </h2>");
+        $("#pen_labeled").css("display","none");
+		});
+
+	 	$("#option2").click( function(){
+        $("#feedback").html("<h2 style='color:green'> Correct! This is the area you grip when writing. </h2>");
+        $("#pen_labeled").css("display","inline");
+		});
+
+ 		$("#option3").click( function(){
+        $("#feedback").html("<h2 style='color:red'> The length of the pen that often houses the ink cartridge. </h2>");
+        $("#pen_labeled").css("display","none");
+		});
+
+ 		$("#option4").click( function(){
+        $("#feedback").html("<h2 style='color:red'> The ink bottle doesn't reside in the pen. </h2>");
+        $("#pen_labeled").css("display","none");
+		});
+
+	});
+
+	</script>
+
+</head>
+
+<body>
+<h1> Fountain Pens with Alex </h1>
+
+	<a href="index.html"> Parts of a Pen</a>
+	<a href="page2.html"> Quiz Question</a>
+
+
+<br><br>
+
+<div id="wrapper">
+
+<div class="body">
+	<h1>What is the part of the pen you typically grip when writing?</h1>
+	<h3>Click on one of the following choices:</h3>
+ 
+	<h2 id="option1" class="choices"> Nib </h2>
+	<h2 id="option2" class="choices"> Section </h2>
+	<h2 id="option3" class="choices"> Barrel </h2>
+	<h2 id="option4" class="choices"> Ink Bottle </h2>
+ 
+	<div id="feedback"></div>
+	<img id="pen_image" src="img/pen_parts_labeled.png" alt="Fountain pen parts identified"/>
+	
+</div><!--body-->
+
+  <br><br>
+  <p>Created by Alex Gomes</p>
+
+</div><!--wrapper-->
+</body>
+</html>

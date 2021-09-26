@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/lab5.css" rel="stylesheet" type="text/css">
+<title>Lab 5: Fountain Pens with Alex</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+	$(function(){
+	
+	$("#pen_image").mouseenter( function(){
+		$("#pen_image").css("display","none");
+		$("#pen_labeled").css("display","inline");
+		$("#answer").html("<h2>Pens are fun!</h2>");
+		});
+ 
+		$("#pen_labeled").mouseleave( function(){
+		$("#pen_image").css("display","inline");
+		$("#pen_labeled").css("display","none");
+		$("#answer").html("");
+		});
+	
+	});
+
+	</script>
+
+</head>
+
+<body>
+<h1> Fountain Pens with Alex </h1>
+
+	<a href="index.html"> Parts of a Pen</a>
+	<a href="page2.html"> Quiz Question</a>
+
+
+<br><br>
+
+<div id="wrapper">
+
+<div class="body">
+	<h2>What are the major parts of a Fountain Pen</h2>
+	<p>While there are different types of filling systems for fountain pens, many pens share the same major parts.</p>
+	<p><strong>Hint:</strong> Hover over the image below to learn the names of the major components of a Fountain Pen.</p>
+	<img id="pen_image"   src="img/pen.png" alt="Fountain pen"/>
+ 	<img id="pen_labeled" src="img/pen_parts_labeled.png" alt="Fountain pen parts identified"/>
+	<div id="answer"></div>  <!-- This is a placeholder to display here the answer-->
+	
+</div><!--body-->
+
+  <br><br>
+  <p>Created by Alex Gomes</p>
+
+</div><!--wrapper-->
+</body>
+</html>
