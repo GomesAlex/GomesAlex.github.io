@@ -1,0 +1,149 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  text-align: center;
+  background-color: #A33B20;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: Oswald;
+  font-size: 27px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #27213C;
+  color: white;
+}
+
+div {
+	padding:5px;
+	border-radius:5px;
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 850px;
+	margin:0 auto;    /* centers wrapper */
+}
+
+body {
+	text-align: justify;
+	background-color:#A6A57A;   /* background color */
+	color: #444;          /* text color for the entire page */
+	font-size: 15px;
+	font-family: Open Sans;
+
+}
+
+h1 { 
+	padding:9px;
+	text-align:center;     /* centers h1 content */
+	background: #27213C;
+	color: white;       /* Text color for the h1 content*/
+	border-radius:5px;
+	font-weight: bold;
+	font-family: Oswald;
+
+}
+
+h2 { 
+	padding: 9px;
+	text-align:center;     /* centers h2 content */
+	background: #27213C;
+	color: white;       /* Text color for the h2 content*/
+	border-radius:5px;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-family: Oswald;
+
+}
+
+h3 { 
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: Oswald;
+
+}
+
+.body { 
+	background-color: #FFFEF2;
+	padding:9px;
+	justify-content: center;
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle {
+	padding:6px;
+	text-align:left;
+	color: white;
+	font-size:16px;
+	font-weight: bold;
+	background-color:#27213C;
+	border-radius:5px;
+
+ }
+
+.stepContent { 
+	background-color: white;
+	padding:7px;
+	display: flex;
+	justify-content: center;
+}
+
+.stepDescription {
+	width:55%;
+	padding:5px;
+}
+
+.stepImage {
+	width:40%;	
+	padding:5px;
+	text-align: center;
+}
+
+.warning {
+	background-color: #FBB8C4;
+	padding:10px;
+	border-radius:20px;
+}
+
+.warningIcon {
+	color:red; 
+	font-size:3em;
+}
+
+#pen_image1 {
+border: black 0px solid;
+}
+
+#pen_image2 {
+border: black 0px solid;
+}
+ 
+#pen_labeled1 {
+display: none;
+border: black 1px solid;
+}
+
+#pen_labeled2 {
+display: none;
+border: black 1px solid;
+}
+
+.choices {
+cursor: pointer;
+}

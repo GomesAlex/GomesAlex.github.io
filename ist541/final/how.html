@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/final.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+	$(function(){
+	
+	$("#pen_image1").mouseenter( function(){
+		$("#pen_image1").css("display","none");
+		$("#pen_labeled1").css("display","inline");
+		$("#answer").html("");
+		});
+ 
+		$("#pen_labeled1").mouseleave( function(){
+		$("#pen_image1").css("display","inline");
+		$("#pen_labeled1").css("display","none");
+		$("#answer").html("");
+		});
+
+	$("#pen_image2").mouseenter( function(){
+		$("#pen_image2").css("display","none");
+		$("#pen_labeled2").css("display","inline");
+		$("#answer").html("<h2>Pens are fun!</h2>");
+		});
+ 
+		$("#pen_labeled2").mouseleave( function(){
+		$("#pen_image2").css("display","inline");
+		$("#pen_labeled2").css("display","none");
+		$("#answer").html("");
+		});
+	
+	});
+
+	</script>
+
+<title>Final: Fountain Pens 101</title>
+</head>
+
+<body>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="history.html">History</a>
+  <a class="active" href="how.html">How They Work</a>
+  <a href="started.html">Getting Started</a>
+  <a href="fill.html">Filling Your Pen</a>
+  <a href="resources.html">Resources</a>
+</div>
+
+<br>
+
+<div id="wrapper">
+
+<div class="body">
+	<h2>How Fountain Pens Work</h2>
+	<center><P>Hover over the major sections of the fountain pen to learn how they function:<p>	
+	
+	<img id="pen_image1"   src="img/nib_diagram_top.png" alt="Fountain pen nib diagram"/>
+ 	<img id="pen_labeled1" src="img/nib_diagram_top_hover.png" alt="Fountain pen nib diagram"/>
+	
+	<img id="pen_image2"   src="img/nib_diagram_bottom.png" alt="Fountain pen"/>
+ 	<img id="pen_labeled2" src="img/nib_diagram_bottom_hover.png" alt="Fountain pen nib diagram"/>
+	
+	<br>
+	<p>To get a better idea how capillary action works watch the video below:</p> 
+	<p><iframe width="640" height="360" src="https://www.youtube.com/embed/LdJGGS6l504" title="YouTube video player" 
+	frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+	allowfullscreen></iframe></p>
+</div><!--body-->
+
+  <br><br>
+  <center><p>Created by Alex Gomes</p></center>
+
+
+</div><!--wrapper-->
+</body>
+</html>
